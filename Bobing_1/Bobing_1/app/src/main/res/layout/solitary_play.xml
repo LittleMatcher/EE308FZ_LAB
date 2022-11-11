@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/game_background"
+         >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+
+        >
+        <TableRow>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="状元"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="对堂"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="三红"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+
+
+        </TableRow>
+        <TableRow>
+
+
+
+            <TextView
+                android:id="@+id/bobing_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/bobing_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/bobing_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="四进"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="二举"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="一秀"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:lines="1"
+                android:text="不中"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+
+
+
+            <TextView
+                android:id="@+id/bobing_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/bobing_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/bobing_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/bobing_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                />
+
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/solitary_game_backgroud"
+            android:gravity="center">
+
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_back"
+            android:background="@drawable/button_back"
+            >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp">
+
+                <TableRow>
+
+                    <ImageView android:layout_weight="3"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/dice_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView
+                        android:id="@+id/dice_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView
+                        android:id="@+id/dice_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView android:layout_weight="3"></ImageView>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <ImageView android:layout_weight="3"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/dice_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView
+                        android:id="@+id/dice_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView
+                        android:id="@+id/dice_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/value1" />
+
+                    <ImageView android:layout_weight="3"></ImageView>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/bobing_result"
+                android:layout_width="159dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:lines="1"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/roll_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00000000"
+                android:gravity="center|center_vertical"
+                android:padding="10dp"
+                android:text="    摇！"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+    

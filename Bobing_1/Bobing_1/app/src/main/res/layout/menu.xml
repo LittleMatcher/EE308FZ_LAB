@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/menu_background"
+
+    >
+
+    <Button
+        android:id="@+id/online_game"
+        app:layout_marginTopPercent="30%"
+        android:text="登陆游戏"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9%"
+        app:layout_widthPercent="50%"
+        app:layout_marginLeftPercent="20%"
+        android:background="@null"
+        android:textSize="40sp"
+        android:textColor="#F6D920"
+        />
+    <Button
+        android:id="@+id/setting"
+        app:layout_marginTopPercent="42%"
+        android:text="游戏设置"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9%"
+        app:layout_widthPercent="50%"
+        app:layout_marginLeftPercent="35%"
+        android:background="@null"
+        android:textSize="40sp"
+        android:textColor="#F6D920"
+        />
+    <Button
+        android:id="@+id/gamerule"
+        app:layout_marginTopPercent="54%"
+        android:text="玩法简介"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9%"
+        app:layout_widthPercent="50%"
+        app:layout_marginLeftPercent="50%"
+        android:background="@null"
+        android:textSize="40sp"
+        android:textColor="#F6D920"
+        />
+    <Button
+        android:id="@+id/solitary_play"
+        app:layout_marginTopPercent="66%"
+        android:text="单机游戏"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9%"
+        app:layout_widthPercent="50%"
+        app:layout_marginLeftPercent="50%"
+        android:background="@null"
+        android:textSize="40sp"
+        android:textColor="#F6D920"
+
+        />
+    <Button
+        android:id="@+id/quit_game"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#F6D920"
+        app:layout_marginTopPercent="78%"
+        android:onClick="showdialog"
+        android:text="退出游戏"
+        app:layout_heightPercent="9%"
+        app:layout_widthPercent="50%"
+        app:layout_marginLeftPercent="50%"
+        android:background="@null"
+        android:textSize="40sp"
+        />
+
+
+</androidx.percentlayout.widget.PercentFrameLayout>

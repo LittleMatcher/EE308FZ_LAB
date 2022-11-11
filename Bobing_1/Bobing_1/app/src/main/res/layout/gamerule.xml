@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/game_background"
+    >
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_back"
+        android:background="@drawable/buttuon_back_white"
+        >
+    </Button>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_widthPercent="95%"
+        app:layout_heightPercent="88%"
+        android:background="@drawable/gamerule"
+        >
+
+    </ImageView>
+
+
+</androidx.percentlayout.widget.PercentFrameLayout>

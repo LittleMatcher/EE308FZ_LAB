@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/first_page_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搏了个搏"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="180dp"
+        android:textColor="#E82828"
+        >
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/pb_determinate"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/purple_200"
+        android:max="100"
+        android:progress="0"
+
+        />
+    <Button
+        android:id="@+id/first_button_next_menu"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/button_yellow"
+        android:layout_centerHorizontal="true"
+        android:text="开始"
+        android:textColor="#E82828"
+        android:textSize="30sp"
+        >
+
+    </Button>
+</RelativeLayout>
